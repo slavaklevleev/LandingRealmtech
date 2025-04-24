@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realmtech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+
+</head>
+
+<body class="secondary">
+    <header class="header">
+        <div class="container">
+            <div class="innerWrapper">
+                <div id="logo">
+                    <p id="title">berger</p>
+                    <p id="slogan">Интеллект вашего дома в<br />наших руках</p>
+                </div>
+
+                <button class="burger" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#products">Продукты</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#contaсts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="socials">
+                    <div>
+                        <a href="#" target="_blank" class="header_wa">
+                            <img src="./assets/whatsapp.png" alt="Whatsapp" />
+                            <span>Онлайн 24/7</span>
+                        </a>
+                    </div>
+                    <div class="header_phone">
+                        <a href="tel:+71234567899">+7 (123) 456-78-99</a>
+                        <p>Обратный звонок</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="innerWrapper">
+                <p>Главная / Низковольтные системы (48В)</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="category_content">
+        <div class="container">
+            <div>
+                <h2 class="title">
+                    Низковольтные системы (48В)
+                </h2>
+            </div>
+            <div class="content">
+                <div>
+                    <p class="content_header">работают на напряжении 48 вольт, что делает их более безопасными для
+                        использования в местах, где повышена влажность или возможен прямой контакт людей с
+                        осветительными элементами. Низковольтные системы часто выбирают для освещения жилых помещений, а
+                        также для акцентного освещения в магазинах и галереях. Они требуют использования трансформатора
+                        для понижения стандартного напряжения до 48 вольт, что обеспечивает их эффективную и экономичную
+                        работу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products fade-in" id="products">
+        <div class="container">
+            <div class="innerWrapper">
+
+                <div class="card">
+                    <h3>Подвесные/накладные</h3>
+                    <p>Монтируются на поверхность потолка или стены и могут свисать на проводах или цепях, создавая
+                        драматический визуальный эффект. Они идеально подходят для общего освещения или как акцентный
+                        свет в
+                        жилых и коммерческих пространствах. Подвесные и накладные светильники добавляют декоративный
+                        элемент
+                        в интерьер и часто используются для освещения столов, рабочих зон или прихожих.</p>
+
+                    <div>
+                        <p>Под шпаклевку (безрамочные)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Встраиваемые</h3>
+                    <p>Трехфазные трековые системы работают с напряжением 220 вольт, что является стандартным для
+                        бытовых и промышленных зданий. Они могут поддерживать большую нагрузку и подходят для освещения
+                        больших пространств. Такие системы позволяют устанавливать множество светильников на одном
+                        треке, обеспечивая высокую гибкость в организации освещения.</p>
+
+                    <div>
+                        <p>С рамкой</p>
+                        <p>Стандартный профиль H43</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount_quiz fade-in">
+        <div class="container">
+            <h3>Узнай подходящее решение за 1 минуту и получи скидку 10%</h3>
+            <h4>А так же подробную бесплатную консультацию + подарок от нашей компании</h4>
+            <div class="quiz">
+                <div class="promocode"></div>
+                <p>Вопрос <span id="quiz_q_num">1</span> из 3</p>
+                <div class="quiz_content">
+                    <h5 id="quiz_question"></h5>
+                    <div id="quiz_answers"></div>
+                    <div id="quiz_next" style="cursor: pointer;">Следующий вопрос</div>
+                </div>
+                <p id="quiz_timer" style="margin-top: 10px;"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="secondary fade-in">
+        <div class="container">
+            <h3>Контакты</h3>
+            <div class="innerWrapper">
+                <div class="left_footer">
+                    <div>
+                        <div><a href="">Технический расчет</a></div>
+                        <div><a href="">Оплата, доставка, возврат</a></div>
+                        <div><a href="">Обследование объекта</a></div>
+                    </div>
+                    <div>
+                        <div><a href="">Реквизиты</a></div>
+                        <div><a href="">Монтаж оборудования</a></div>
+                        <div><a href="">Гарантия</a></div>
+                    </div>
+                </div>
+                <div class="right_footer">
+                    <p>+7 47473 3993 Москва</p>
+                    <p>+7 47473 3993 Бишкек</p>
+                    <p>+7 47473 3993 Алматы</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const quizData = [
+            {
+                question: "Для какого пространства планируется освещение?"
+            },
+            {
+                question: "2 Для какого пространства планируется освещение?"
+            },
+            {
+                question: "3 Для какого пространства планируется освещение?"
+            }
+        ];
+
+        let current = 0;
+        let answers = [];
+        let timeLeft = 60;
+
+        const questionEl = document.getElementById('quiz_question');
+        const qNumEl = document.getElementById('quiz_q_num');
+        const inputEl = document.createElement('input');
+        inputEl.type = 'text';
+        inputEl.style.width = "100%";
+        inputEl.style.padding = "8px";
+
+        const answersContainer = document.getElementById('quiz_answers');
+        answersContainer.innerHTML = '';
+        answersContainer.appendChild(inputEl);
+
+        const nextBtn = document.getElementById('quiz_next');
+        const timerEl = document.getElementById('quiz_timer');
+
+        function renderQuestion() {
+            const q = quizData[current];
+            questionEl.textContent = q.question;
+            inputEl.value = '';
+            qNumEl.textContent = current + 1;
+            inputEl.focus();
+        }
+
+        let timerStarted = false;
+
+        nextBtn.addEventListener('click', () => {
+            if (!timerStarted) {
+                startTimer();
+                timerStarted = true;
+            }
+
+            const val = inputEl.value.trim();
+            if (!val) {
+                alert("Пожалуйста, введите ответ");
+                return;
+            }
+
+            answers[current] = val;
+            current++;
+
+            if (current < quizData.length) {
+                renderQuestion();
+            } else {
+                clearInterval(timer);
+                document.querySelector('.quiz').innerHTML = `
+            <h3>🎉 Ваш промокод: <span style="color: green">SKIDKA10</span></h3>
+            <p>Ответы: <br>${answers.map((a, i) => `${i + 1}) ${a}`).join('<br>')}</p>
+        `;
+            }
+        });
+
+        function startTimer() {
+            timerEl.textContent = `Осталось времени: ${timeLeft} сек`;
+            timer = setInterval(() => {
+                timeLeft--;
+                timerEl.textContent = `Осталось времени: ${timeLeft} сек`;
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                    document.querySelector('.quiz').innerHTML = `
+                        <h3>⏰ Время вышло!</h3>
+                        <p>Попробуйте пройти викторину снова</p>
+                    `;
+                }
+            }, 1000);
+        }
+
+        renderQuestion();
+    </script>
+
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav');
+        const socials = document.querySelector('.socials');
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            socials.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
